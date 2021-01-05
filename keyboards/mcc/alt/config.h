@@ -23,6 +23,11 @@
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION ROW2COL
 
+/*encoders*/
+// Left, Right, Middle
+#define ENCODERS_PAD_A { D4, D7, B4 }
+#define ENCODERS_PAD_B { C6, E6, B5 }
+
 /* number of backlight levels */
 
 #ifdef BACKLIGHT_PIN
