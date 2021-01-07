@@ -34,8 +34,9 @@
 #define DEBOUNCING_DELAY 5
 
 // Left, Right, Middle
-#define ENCODERS_PAD_A { C6, E6, B5 }
-#define ENCODERS_PAD_B { D4, D7, B4 }
+#define ENCODERS_PAD_A { D4, D7, B4 }
+#define ENCODERS_PAD_B { C6, E6, B5 }
+
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap
 #define LOCKING_SUPPORT_ENABLE
